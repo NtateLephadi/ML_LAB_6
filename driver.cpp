@@ -19,6 +19,9 @@ int main(int argc, char const *argv[]) {
     }
   );
 
+  n.hidden_output();
+  n.output_output();
+  n.output_error();
   n.to_string();
   return 0;
 }
